@@ -148,3 +148,5 @@ main{flex:1}
   .brand-xl .s{animation:flicker 7s infinite}
   @keyframes flicker{0%,92%,100%{opacity:1}93%{opacity:.75}94%{opacity:1}96%{opacity:.85}}
 }
+.logo-mark{width:36px;height:36px;align-self:center;filter:drop-shadow(0 0 6px rgba(255,47,160,.65))}
+@media (max-width:520px){.logo-mark{width:30px;height:30px}}
